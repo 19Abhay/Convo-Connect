@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ConvoConnect" parent="Theme.Material3.Light">
+<item name="android:fitsSystemWindows">true</item>
+
+        <!-- Customize your light theme here. -->
+     <item name="colorPrimary">@color/purple</item>
+        <item name="colorSecondary">@color/purple2</item>
+    </style>
+
+    <style name="Theme.ConvoConnect" parent="Base.Theme.ConvoConnect" />
+</resources>

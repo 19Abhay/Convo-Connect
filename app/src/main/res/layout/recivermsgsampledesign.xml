@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10sp"
+    android:background="#FAF9F6"
+    android:layout_gravity="left"
+    android:maxWidth="50sp"
+    android:layout_margin="10sp"
+    android:elevation="10sp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello My Freinds"
+        android:maxWidth="200sp"
+        android:id="@+id/text_recivermsg"
+        android:layout_alignParentTop="true"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5:30"
+        android:textColor="@color/grey"
+        android:textSize="10sp"
+        android:id="@+id/text_recivermsgtime"
+        android:layout_alignRight="@+id/text_recivermsg"
+        android:layout_below="@id/text_recivermsg"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2024-09-23"
+        android:textColor="@color/grey"
+        android:textSize="9sp"
+        android:id="@+id/text_recivermsgdate"
+        android:layout_alignRight="@+id/text_recivermsgtime"
+        android:layout_below="@id/text_recivermsgtime"
+        >
+    </TextView>
+
+</RelativeLayout>

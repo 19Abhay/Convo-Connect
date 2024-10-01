@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="1dp"
+        android:src="@drawable/baseline_person_outline_24"
+        android:id="@+id/image_usericon"
+        >
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abhay Shukla"
+        android:layout_toRightOf="@id/image_usericon"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"
+        android:id="@+id/text_username"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shuklaabhaystp@gmail.com"
+        android:layout_below="@id/text_username"
+        android:layout_toRightOf="@id/image_usericon"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/grey"
+        android:id="@+id/text_useremail"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_msgdate"
+        android:text="21/09/24"
+        android:layout_alignParentEnd="true"
+        android:textSize="9sp"
+        android:textColor="@color/grey"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5:30AM"
+        android:textSize="10sp"
+        android:layout_below="@id/text_msgdate"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/grey"
+        >
+    </TextView>
+</RelativeLayout>
